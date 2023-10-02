@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.centered-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 这将容器的高度设置为视口的100％，使其充满整个屏幕 */
+}
